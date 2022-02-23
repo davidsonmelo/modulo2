@@ -46,7 +46,7 @@ for (let index = 0; ex != 1; index++) {
                         console.log("'", n5, "'", "nãe é uma nota valida, digite uma nota!")
                     } else {
                         console.log("Soma total das notas ", (+n1 + +n2 + +n3 + +n4 + +n5))
-                        console.log("A média foi ", (+n1 + +n2 + +n3 + +n4 + +n5) / 5)
+                        console.log("A média foi ", (parseFloat(n1) + parseFloat(n2) + parseFloat(n3) + parseFloat(n4) + parseFloat(n5)) / 5)
                         op = 5
                     }
                 }
