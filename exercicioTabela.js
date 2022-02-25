@@ -41,7 +41,7 @@ let pedido = 0
 let posicao = 1
 let relacaoPedido = []
 
-for (let index = 0; op != true; index++) {
+while (op != true) {
 
     prodt = input.question("Informe o codigo do produto desejado: ")
 
@@ -49,7 +49,7 @@ for (let index = 0; op != true; index++) {
 
         quant = input.question("Informe a quantidade desejada: ")
 
-        for (let index2 = 0; qto != true; index2++) {
+        while (qto != true) {
 
             if (quant <= 0 || isNaN(quant)) {
 
